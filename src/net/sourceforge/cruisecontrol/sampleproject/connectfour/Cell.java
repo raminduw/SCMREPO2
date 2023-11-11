@@ -57,4 +57,8 @@ public class Cell {
         return row;
     }
 
+    public int doAddition(int x, int y){
+        return x+y;
+    }
+
 }
