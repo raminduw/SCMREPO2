@@ -45,4 +45,10 @@ public class CellTest extends TestCase {
         assertEquals(10, newCell.getColumn());
         assertEquals(5, newCell.getRow());
     }
+
+     public void testAddion() {
+        Cell newCell = new Cell(10, 5);
+        int result = newCell.doAddition(10,20);
+        assertEquals(result, 30);
+    }
 }
